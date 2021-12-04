@@ -1,0 +1,6 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.post{
+    background-color: thistle;
+    margin: 2.5rem;
+    border-radius: 6px;
+    padding: 2rem;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.post h1{
+    background: -webkit-linear-gradient(#231a2d, #ff4f48);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.post p{
+    color: #231a2d;
+    font-size: 1rem;
+}
+.button{
+    display: block;
+    background-color: #ff4e489c;
+    border-radius: 6px;
+    border: none;
+    color: thistle;
+    font-weight: bolder;
+    cursor: pointer;
+    text-align: center;
+    padding: 1rem;
+    width: 30%;
+
+  }

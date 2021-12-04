@@ -1,0 +1,33 @@
+.card{
+  border: 1px solid #231a2d;  
+  border-radius: 6px;
+  width: 40%;
+  margin: 1rem auto;
+}
+.card h1{
+    font-size: 1.5rem;
+    border-bottom: 1px solid #231a2d7e;
+}
+.card p{
+    font-size: 1rem;
+}
+.button{
+  display: block;
+  margin: 1rem;
+  background-color: #ff4e489c;
+  border-radius: 6px;
+  border: none;
+  padding: 0.5rem;
+  color: #231a2df3;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 50%;
+  
+}
+.button:hover{
+    background-color: #ff4e4877;
+    color: #231a2d;
+}
